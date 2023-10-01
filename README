@@ -1,0 +1,17 @@
+ProblemSolver
+
+By: Darius Rudominer
+
+A program that finds common solutions to technical or programming problems, by searching for a consensus among programming help forums.
+
+How to use:
+
+1.) Make sure you have a .env file that contains a valid OPENAI_API_KEY and METAPHOR_API_KEY, in an accessible folder higher than this one
+
+2.) Make sure you have metaphor_python, openai and dotenv installed. To install these, run "pip install [package name]" from your command terminal
+
+3.) Run "python3 ProblemSolver.py" from your command terminal in this folder
+
+4.) Type in a description (ideally one or two sentences) of a technical problem you are having
+
+The program will then search through up to ten forum posts for promising-looking answers, and provide you with a digest of its findings.
